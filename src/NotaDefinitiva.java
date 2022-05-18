@@ -1,5 +1,11 @@
-public class NotaDefinitiva {
+import java.util.Scanner;
+
+public class NotaDefinitiva{ 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        NotaDef fc = new NotaDef(); 
+        fc.IngresarNotas();
+        fc.CalculoNotas();
+        fc.MostrarResultados();
+        fc.Mensaje();
     }
 }
